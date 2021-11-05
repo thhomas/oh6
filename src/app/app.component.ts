@@ -12,6 +12,8 @@ import {Circle as CircleStyle, Fill, Stroke, Style} from 'ol/style';
 import VectorLayer from 'ol/layer/Vector';
 import VectorSource from 'ol/source/Vector';
 import Point from 'ol/geom/Point';
+import Layer from 'ol/layer/Layer';
+import Source from 'ol/source/Source';
 
 @Component({
   selector: 'app-root',
@@ -21,13 +23,14 @@ import Point from 'ol/geom/Point';
 export class AppComponent {
   title = 'oh6';
   tracking = true;
+  layerPreviewUrl = [
+    "https://dtsi-sgt.maps.arcgis.com/sharing/rest/content/items/da224a6ff1c24c029de4024d7ae8af26/resources/inConfig/2541222967421666.png",
+    "https://dtsi-sgt.maps.arcgis.com/sharing/rest/content/items/da224a6ff1c24c029de4024d7ae8af26/resources/inConfig/5045809582584766.png"
+  ];
+  baseLayers : Layer<Source>[] = [];
+  baseLayerDisplayed = 0;
 
-  ngOnInit(): void {
-
-
-
-
-    
+  ngOnInit(): void {  
 
     const view = new View({
       // Defining the location in Lat Lon.
@@ -64,7 +67,7 @@ export class AppComponent {
     
     geolocation.setTracking(this.tracking);
 
-    const layers = [
+    this.baseLayers = [
       new TileLayer({
         // title: "Fond d'images du GéoRépertoire",
         // baseLayer: true,
@@ -72,7 +75,8 @@ export class AppComponent {
         source: new TileArcGISRest({
           url: "https://carto.gouv.nc/public/rest/services/fond_imagerie/MapServer",
           attributions: "Gouvernement de la Nouvelle-Calédonie et GIE SERAIL"
-        })
+        }),
+        visible: false
       }),
       new TileLayer({
         // title: "Fond d'images du GéoRépertoire",
@@ -81,17 +85,18 @@ export class AppComponent {
         source: new TileArcGISRest({
           url: "https://carto.gouv.nc/public/rest/services/fond_cartographie/MapServer",
           attributions: "Gouvernement de la Nouvelle-Calédonie et GIE SERAIL",
-        })
-      }),
-      new VectorLayer({
+        }),
+        visible: false
+      })
+    ];
+    this.baseLayers[this.baseLayerDisplayed].setVisible(true);
+
+    const map = new Map({
+      layers: this.baseLayers.concat(new VectorLayer({
         source: new VectorSource({
           features: [positionFeature],
         })
-      })
-    ];
-
-    const map = new Map({
-      layers: layers,
+      })),
       target: 'map',
       view: view
     });
@@ -101,5 +106,14 @@ export class AppComponent {
       view.setCenter(coordinates);
       view.setZoom(13);
     });
+  }
+
+  switchBaseLayer() {
+    this.baseLayers[this.baseLayerDisplayed].setVisible(false);
+    this.baseLayerDisplayed += 1;
+    if(this.baseLayerDisplayed == this.baseLayers.length) {
+      this.baseLayerDisplayed = 0;
+    }
+    this.baseLayers[this.baseLayerDisplayed].setVisible(true);
   }
 }
