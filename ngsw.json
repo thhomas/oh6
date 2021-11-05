@@ -1,7 +1,7 @@
 {
   "configVersion": 1,
-  "timestamp": 1636086329253,
-  "index": "https://thhomas.github.io/oh6/index.html",
+  "timestamp": 1636088488262,
+  "index": "/oh6/index.html",
   "assetGroups": [
     {
       "name": "app",
@@ -11,13 +11,13 @@
         "ignoreVary": true
       },
       "urls": [
-        "https://thhomas.github.io/oh6/favicon.ico",
-        "https://thhomas.github.io/oh6/index.html",
-        "https://thhomas.github.io/oh6/main.4f584e69b486d900.js",
-        "https://thhomas.github.io/oh6/manifest.webmanifest",
-        "https://thhomas.github.io/oh6/polyfills.92eb5e99bec29f53.js",
-        "https://thhomas.github.io/oh6/runtime.e2ebf7b3253d27ab.js",
-        "https://thhomas.github.io/oh6/styles.e371e34c12678405.css"
+        "/oh6/favicon.ico",
+        "/oh6/index.html",
+        "/oh6/main.1f8d3579a0b5bc97.js",
+        "/oh6/manifest.webmanifest",
+        "/oh6/polyfills.92eb5e99bec29f53.js",
+        "/oh6/runtime.e2ebf7b3253d27ab.js",
+        "/oh6/styles.6892da98bd17483f.css"
       ],
       "patterns": []
     },
@@ -29,35 +29,35 @@
         "ignoreVary": true
       },
       "urls": [
-        "https://thhomas.github.io/oh6/assets/icons/icon-128x128.png",
-        "https://thhomas.github.io/oh6/assets/icons/icon-144x144.png",
-        "https://thhomas.github.io/oh6/assets/icons/icon-152x152.png",
-        "https://thhomas.github.io/oh6/assets/icons/icon-192x192.png",
-        "https://thhomas.github.io/oh6/assets/icons/icon-384x384.png",
-        "https://thhomas.github.io/oh6/assets/icons/icon-512x512.png",
-        "https://thhomas.github.io/oh6/assets/icons/icon-72x72.png",
-        "https://thhomas.github.io/oh6/assets/icons/icon-96x96.png"
+        "/oh6/assets/icons/icon-128x128.png",
+        "/oh6/assets/icons/icon-144x144.png",
+        "/oh6/assets/icons/icon-152x152.png",
+        "/oh6/assets/icons/icon-192x192.png",
+        "/oh6/assets/icons/icon-384x384.png",
+        "/oh6/assets/icons/icon-512x512.png",
+        "/oh6/assets/icons/icon-72x72.png",
+        "/oh6/assets/icons/icon-96x96.png"
       ],
       "patterns": []
     }
   ],
   "dataGroups": [],
   "hashTable": {
-    "https://thhomas.github.io/oh6/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
-    "https://thhomas.github.io/oh6/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
-    "https://thhomas.github.io/oh6/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
-    "https://thhomas.github.io/oh6/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
-    "https://thhomas.github.io/oh6/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
-    "https://thhomas.github.io/oh6/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
-    "https://thhomas.github.io/oh6/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
-    "https://thhomas.github.io/oh6/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
-    "https://thhomas.github.io/oh6/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "https://thhomas.github.io/oh6/index.html": "d1a8ab8ee9a8b2a13a54412283213b2793f83808",
-    "https://thhomas.github.io/oh6/main.4f584e69b486d900.js": "b1f6f1d3da50f4ac9c56adb8dc71ba62d140cc70",
-    "https://thhomas.github.io/oh6/manifest.webmanifest": "815b2dd2f7289321ba4650273403a7b36bac3f9a",
-    "https://thhomas.github.io/oh6/polyfills.92eb5e99bec29f53.js": "c14c914f9228fcc532cceeaa71724026c46fc019",
-    "https://thhomas.github.io/oh6/runtime.e2ebf7b3253d27ab.js": "6948b2107f8ce5277f850f672cb331399e8de9b5",
-    "https://thhomas.github.io/oh6/styles.e371e34c12678405.css": "afcce4895b8de5f90123b8a6f619ed29edf18038"
+    "/oh6/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/oh6/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/oh6/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/oh6/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/oh6/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/oh6/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/oh6/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/oh6/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/oh6/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/oh6/index.html": "dee168967a81f13f956b752418f384cb64ae05fb",
+    "/oh6/main.1f8d3579a0b5bc97.js": "71521755b5027a22e233ae74e24bc497497bf469",
+    "/oh6/manifest.webmanifest": "815b2dd2f7289321ba4650273403a7b36bac3f9a",
+    "/oh6/polyfills.92eb5e99bec29f53.js": "c14c914f9228fcc532cceeaa71724026c46fc019",
+    "/oh6/runtime.e2ebf7b3253d27ab.js": "6948b2107f8ce5277f850f672cb331399e8de9b5",
+    "/oh6/styles.6892da98bd17483f.css": "fad9718c6714593e17047201c718dc693c778a51"
   },
   "navigationUrls": [
     {
