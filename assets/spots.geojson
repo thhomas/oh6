@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"name": "spots",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "fid": 1, "NOM": "ILOT_MAITRE", "NOM2": "Ilôt Maître", "JAUGE": 200 }, "geometry": { "type": "MultiPoint", "coordinates": [ [ 166.408112294998944, -22.334319530761626, 0.0 ] ] } },
+{ "type": "Feature", "properties": { "fid": 2, "NOM": "TENE", "NOM2": "Hippodrome de Téné", "JAUGE": 50 }, "geometry": { "type": "MultiPoint", "coordinates": [ [ 165.544450340393439, -21.580670103964096, 0.0 ] ] } },
+{ "type": "Feature", "properties": { "fid": 3, "NOM": "TORO", "NOM2": "Plage de Toro", "JAUGE": 30 }, "geometry": { "type": "MultiPoint", "coordinates": [ [ 166.356358873638925, -22.20017684332614, 0.0 ] ] } },
+{ "type": "Feature", "properties": { "fid": 4, "NOM": "REDIKA", "NOM2": "Ilôt Redika", "JAUGE": 20 }, "geometry": { "type": "MultiPoint", "coordinates": [ [ 166.611260781303145, -22.515928734408185, 0.0 ] ] } },
+{ "type": "Feature", "properties": { "fid": 5, "NOM": "ILOT_BAILLY", "NOM2": "Ilôt Bailly", "JAUGE": 35 }, "geometry": { "type": "MultiPoint", "coordinates": [ [ 166.571384956622154, -22.302496231200493, 0.0 ] ] } }
+]
+}

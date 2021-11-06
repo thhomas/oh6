@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1636088488262,
+  "timestamp": 1636187026710,
   "index": "/oh6/index.html",
   "assetGroups": [
     {
@@ -13,11 +13,11 @@
       "urls": [
         "/oh6/favicon.ico",
         "/oh6/index.html",
-        "/oh6/main.1f8d3579a0b5bc97.js",
+        "/oh6/main.d54fced94d5ed270.js",
         "/oh6/manifest.webmanifest",
-        "/oh6/polyfills.92eb5e99bec29f53.js",
-        "/oh6/runtime.e2ebf7b3253d27ab.js",
-        "/oh6/styles.6892da98bd17483f.css"
+        "/oh6/polyfills.7a3fa7d5200bc02f.js",
+        "/oh6/runtime.ff90f61b09c9d73e.js",
+        "/oh6/styles.0f58f03183632b5c.css"
       ],
       "patterns": []
     },
@@ -29,6 +29,9 @@
         "ignoreVary": true
       },
       "urls": [
+        "/oh6/assets/ILOT_MAITRE.csv",
+        "/oh6/assets/icons/ICONS_ILOTS_V0.png",
+        "/oh6/assets/icons/ICONS_OH6_V0.png",
         "/oh6/assets/icons/icon-128x128.png",
         "/oh6/assets/icons/icon-144x144.png",
         "/oh6/assets/icons/icon-152x152.png",
@@ -36,13 +39,18 @@
         "/oh6/assets/icons/icon-384x384.png",
         "/oh6/assets/icons/icon-512x512.png",
         "/oh6/assets/icons/icon-72x72.png",
-        "/oh6/assets/icons/icon-96x96.png"
+        "/oh6/assets/icons/icon-96x96.png",
+        "/oh6/assets/icons/pin.png",
+        "/oh6/assets/spots.geojson"
       ],
       "patterns": []
     }
   ],
   "dataGroups": [],
   "hashTable": {
+    "/oh6/assets/ILOT_MAITRE.csv": "1b3929329a0d7547d0a32d513296ab0411d83da3",
+    "/oh6/assets/icons/ICONS_ILOTS_V0.png": "410236bdcd18630fc106e9021acdeed70d5c3e34",
+    "/oh6/assets/icons/ICONS_OH6_V0.png": "10d6565074a3b322c3747dbc95edc78270cd8393",
     "/oh6/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
     "/oh6/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
     "/oh6/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
@@ -51,13 +59,15 @@
     "/oh6/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
     "/oh6/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "/oh6/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/oh6/assets/icons/pin.png": "dab854bfe3e5f74407ade9f997cad4c105c6f81b",
+    "/oh6/assets/spots.geojson": "d532a9c72dda5ba4b9fdbab1b1a142a45fe5f5a3",
     "/oh6/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/oh6/index.html": "dee168967a81f13f956b752418f384cb64ae05fb",
-    "/oh6/main.1f8d3579a0b5bc97.js": "71521755b5027a22e233ae74e24bc497497bf469",
+    "/oh6/index.html": "356c819dc90b7cba5841d172610beaa0decb5903",
+    "/oh6/main.d54fced94d5ed270.js": "5bca33eb5e7d267447b0b61c007e44d145881939",
     "/oh6/manifest.webmanifest": "815b2dd2f7289321ba4650273403a7b36bac3f9a",
-    "/oh6/polyfills.92eb5e99bec29f53.js": "c14c914f9228fcc532cceeaa71724026c46fc019",
-    "/oh6/runtime.e2ebf7b3253d27ab.js": "6948b2107f8ce5277f850f672cb331399e8de9b5",
-    "/oh6/styles.6892da98bd17483f.css": "fad9718c6714593e17047201c718dc693c778a51"
+    "/oh6/polyfills.7a3fa7d5200bc02f.js": "ab36e8e205711f981883c7758c8f0538037758d5",
+    "/oh6/runtime.ff90f61b09c9d73e.js": "48396a1388be8f7a4d449adc157887a6b4c31e7f",
+    "/oh6/styles.0f58f03183632b5c.css": "58c150a1e0748a1265fc30c04dc7d299548f3f18"
   },
   "navigationUrls": [
     {
